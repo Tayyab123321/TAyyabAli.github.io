@@ -80,15 +80,14 @@ function downloadFile() {
 }
 
 function addToPaper() {
-  for (int i =0; i < 5 ; i++)
-  {
+ 
   document.querySelector('#note').innerHTML =
     /* html */ `
     <img style="width: 15%; top : 20%" src="${drawCanvas.toDataURL('image/png')}" />
   ` + document.querySelector('#note').innerHTML;
   
   toggleDrawCanvas();
-  }
+  
 }
 
 function addImageToPaper() {
