@@ -82,7 +82,7 @@ function downloadFile() {
 function addToPaper() {
   document.querySelector('#note').innerHTML =
     /* html */ `
-    <img style="width: 100%;" src="${drawCanvas.toDataURL('image/png')}" />
+    <img style="width: 15%;" src="${drawCanvas.toDataURL('image/png')}" />
   ` + document.querySelector('#note').innerHTML;
   toggleDrawCanvas();
 }
