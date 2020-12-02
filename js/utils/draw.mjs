@@ -80,7 +80,7 @@ function downloadFile() {
 }
 
 function addToPaper() {
-  for (int i =0; i < 2 ; i++)
+  for (int i =0; i < 5 ; i++)
   {
   document.querySelector('#note').innerHTML =
     /* html */ `
