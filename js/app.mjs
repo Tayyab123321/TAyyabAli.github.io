@@ -69,10 +69,10 @@ const EVENT_MAP = {
     action: (e) => addFontFromFile(e.target.files[0])
   },
   '#ink-color': {
-    on: 'change',
-    action: (e) => {
-      document.body.style.setProperty('--ink-color', e.target.value);
-      setInkColor(e.target.value);
+  //  on: 'change',
+   // action: (e) => {
+    //  document.body.style.setProperty('--ink-color', e.target.value);
+     // setInkColor(e.target.value);
     }
   },
   '#paper-margin-toggle': {
