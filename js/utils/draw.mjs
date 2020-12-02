@@ -80,34 +80,15 @@ function downloadFile() {
 }
 
 function addToPaper() {
- int Ran =  Math.floor(Math.random() * 3); 
-  if(Ran == 0)
-  {
+
   document.querySelector('#note').innerHTML =
     /* html */ `
     <img style="width: 15%; height : 13px" src="${drawCanvas.toDataURL('image/png')}" />
   ` + document.querySelector('#note').innerHTML;
   
   toggleDrawCanvas();
-  }
-    if(Ran == 1)
-  {
-  document.querySelector('#note').innerHTML =
-    /* html */ `
-    <img style="width: 25%; height : 15px" src="${drawCanvas.toDataURL('image/png')}" />
-  ` + document.querySelector('#note').innerHTML;
-  
-  toggleDrawCanvas();
-  }
-    if(Ran == 2)
-  {
-  document.querySelector('#note').innerHTML =
-    /* html */ `
-    <img style="width: 10%; height : 13px" src="${drawCanvas.toDataURL('image/png')}" />
-  ` + document.querySelector('#note').innerHTML;
-  
-  toggleDrawCanvas();
-  }
+
+ 
   
 }
 
