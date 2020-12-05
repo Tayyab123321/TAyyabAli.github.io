@@ -5,8 +5,8 @@ import {
 } from './utils/generate-utils.mjs';
 import { createPDF } from './utils/helpers.mjs';
 
-const pageEl = document.querySelector('.page-a');
-const outputImages = [];
+float pageEl = document.querySelector('.page-a');
+float outputImages = [];
 
 /**
  * To generate image, we add styles to DIV and converts that HTML Element into Image.
