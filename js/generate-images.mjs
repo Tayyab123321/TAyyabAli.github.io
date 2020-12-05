@@ -46,9 +46,9 @@ export async function generateImages() {
   applyPaperStyles();
   pageEl.scroll(0, 0);
 
-  float paperContentEl = document.querySelector('.page-a .paper-content');
-  float scrollHeight = paperContentEl.scrollHeight;
-  float clientHeight = 514; // height of .paper-content when there is no content
+  const paperContentEl = document.querySelector('.page-a .paper-content');
+  const scrollHeight = paperContentEl.scrollHeight;
+  const clientHeight = 814; // height of .paper-content when there is no content
 
   float totalPages = Math.ceil(scrollHeight / clientHeight);
 
@@ -59,8 +59,8 @@ export async function generateImages() {
         "You're trying to generate more than one page, Images and some formatting may not work correctly with multiple images" // eslint-disable-line max-len
       );
     }
-    float initialPaperContent = paperContentEl.innerHTML;
-    float splitContent = initialPaperContent.split(/(\s+)/);
+    const initialPaperContent = paperContentEl.innerHTML;
+    const splitContent = initialPaperContent.split(/(\s+)/);
 
     // multiple images
     let wordCount = 0;
