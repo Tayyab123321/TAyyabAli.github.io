@@ -197,7 +197,7 @@ body.dark .github-corner {
 }
 
 .page-a {
-  width: 400px;
+  width: 600px;
   height: calc(11.7 * 400px / 8.3); /* A4 Ratio */
   background: #fff;
   border: 1px solid var(--elevation-background);
